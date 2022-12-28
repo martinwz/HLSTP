@@ -1,5 +1,5 @@
 # HLSTP
-[](reported-bugs.md ':include')
+[filename](./reported-bugs.md ':include')
 
 # The following two tables record the details of all reported bugs found by HLSTP (Update by 2022-12-28).
 
