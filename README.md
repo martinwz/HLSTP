@@ -1,7 +1,7 @@
 # HLSTP
 
 
-# The following two tables record the details of all reported bugs found by HLSTP (Update by 2022-12-24).
+# The following two tables record the details of all reported bugs found by HLSTP (Update by 2022-12-28).
 
 ## Miscompile bugs
 
