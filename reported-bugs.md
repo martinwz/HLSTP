@@ -1,7 +1,7 @@
 # HLSTP
 
 
-# The following two tables record the details of all reported bugs found by HLSTP (Update by 2022-12-24).
+# The following two tables record the details of all reported bugs found by HLSTP (Update by 2022-12-28).
 
 ## Miscompile bugs
 
@@ -23,6 +23,7 @@
 |  14  | [Pragma-Related BUG REPORT: RTL output is inconsistent with its golden output when we insert some pragmas into our code.](https://support.xilinx.com/s/question/0D54U000064Y7qSSAS/pragmarelated-bug-report-rtl-output-is-inconsistent-with-its-golden-output-when-we-insert-some-pragmas-into-our-code)  |  reset off, latency   | Pending |
 |  15  | [Pragma-Related BUG REPORT: when we turn off inline, pipeline in some functions and reshape an array at the same times, RTL verilog simulation output is inconsistent with its golden output in Vitis HLS v2022.02.](https://support.xilinx.com/s/question/0D54U000064Y80mSAC/pragmarelated-bug-report-when-we-turn-off-inline-pipeline-in-some-functions-and-reshape-an-array-at-the-same-times-rtl-verilog-simulation-output-is-inconsistent-with-its-golden-output-in-vitis-hls-v202202)  |  array_reshape, pipeline off, inline off, pipeline off   | Pending |
 |  16  | [Pragma-Related Issue: both Vitis HLS v2020.02 and v2022.02 report co-simulation failed when we prevent a function be inlined and apply allocation pragma to it.](https://support.xilinx.com/s/question/0D54U000064bq5xSAA/pragmarelated-issue-both-vitis-hls-v202002-and-v202202-report-cosimulation-failed-when-we-prevent-a-function-be-inlined-and-apply-allocation-pragma-to-it)  |  inline off, allocation   | Pending |
+|  17  | [Co-simulation failed Issue: the simulation result doesn’t match the golden output in Vitis HLS v2022.02 when we use some pragmas.](https://support.xilinx.com/s/question/0D54U000067nmCCSAY/cosimulation-failed-issue-the-simulation-result-doesnt-match-the-golden-output-in-vitis-hls-v202202-when-we-use-some-pragmas)  |  array_reshape pipeline latency allocation  | Pending |
 
 ## Crash bugs
 
