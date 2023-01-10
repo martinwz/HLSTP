@@ -1,6 +1,6 @@
 # HLSTP
 
-# The following two tables record the details of all reported bugs found by HLSTP (Update by 2023-01-03).
+# The following two tables record the details of all reported bugs found by HLSTP (Update by 2023-01-10).
 
 ## Miscompile bugs
 
@@ -24,6 +24,7 @@
 |  16  | [Pragma-Related Issue: both Vitis HLS v2020.02 and v2022.02 report co-simulation failed when we prevent a function be inlined and apply allocation pragma to it.](https://support.xilinx.com/s/question/0D54U000064bq5xSAA/pragmarelated-issue-both-vitis-hls-v202002-and-v202202-report-cosimulation-failed-when-we-prevent-a-function-be-inlined-and-apply-allocation-pragma-to-it)  |  inline off, allocation   | Pending |
 |  17  | [Co-simulation failed Issue: the simulation result doesn’t match the golden output in Vitis HLS v2022.02 when we use some pragmas.](https://support.xilinx.com/s/question/0D54U000067nmCCSAY/cosimulation-failed-issue-the-simulation-result-doesnt-match-the-golden-output-in-vitis-hls-v202202-when-we-use-some-pragmas)  |  array_reshape, pipeline, latency, allocation  | Pending |
 |  18  | [Pragma-related Issue: Using reset off and inline off in one function causes Vitis HLS cannot synthesis the code correctly.](https://support.xilinx.com/s/question/0D54U000067oli4SAA/pragmarelated-issue-using-reset-off-and-inline-off-in-one-function-causes-vitis-hls-cannot-synthesis-the-code-correctly)  |  inline off, reset off  | Pending |
+|  19  | [Co-simulation failed Issue: Vitis HLS cannot synthesize the code correctly.](https://support.xilinx.com/s/question/0D54U00006CmRJTSA3/cosimulation-failed-issue-vitis-hls-cannot-synthesize-the-code-correctly)  |  pipeline, inline off, protocol  | Pending |
 
 ## Crash bugs
 
