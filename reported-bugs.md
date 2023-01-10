@@ -1,6 +1,6 @@
 # HLSTP
 
-# The following two tables record the details of all reported bugs found by HLSTP (Update by 2023-01-03).
+# The following two tables record the details of all reported bugs found by HLSTP (Update by 2023-01-10).
 
 ## Miscompile bugs
 
@@ -24,17 +24,18 @@
 |  16  | [Pragma-Related Issue: both Vitis HLS v2020.02 and v2022.02 report co-simulation failed when we prevent a function be inlined and apply allocation pragma to it.](https://support.xilinx.com/s/question/0D54U000064bq5xSAA/pragmarelated-issue-both-vitis-hls-v202002-and-v202202-report-cosimulation-failed-when-we-prevent-a-function-be-inlined-and-apply-allocation-pragma-to-it)  |  inline off, allocation   | Pending |
 |  17  | [Co-simulation failed Issue: the simulation result doesn’t match the golden output in Vitis HLS v2022.02 when we use some pragmas.](https://support.xilinx.com/s/question/0D54U000067nmCCSAY/cosimulation-failed-issue-the-simulation-result-doesnt-match-the-golden-output-in-vitis-hls-v202202-when-we-use-some-pragmas)  |  array_reshape, pipeline, latency, allocation  | Pending |
 |  18  | [Pragma-related Issue: Using reset off and inline off in one function causes Vitis HLS cannot synthesis the code correctly.](https://support.xilinx.com/s/question/0D54U000067oli4SAA/pragmarelated-issue-using-reset-off-and-inline-off-in-one-function-causes-vitis-hls-cannot-synthesis-the-code-correctly)  |  inline off, reset off  | Pending |
+|  19  | [Co-simulation failed Issue: Vitis HLS cannot synthesize the code correctly.](https://support.xilinx.com/s/question/0D54U00006CmRJTSA3/cosimulation-failed-issue-vitis-hls-cannot-synthesize-the-code-correctly)  |  pipeline, inline off, protocol  | Pending |
 
 ## Crash bugs
 
 | No.  |                           Bug Report Title                            |     Buggy Pragmas      |    Status     |
-| :--: | :---------------------------------------------------------: | :------------: | :-----------: | 
-|  1  | [Pragma-Related BUG REPORT: Vitis HLS v2022.02 crashed when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064Y8CJSA0/pragmarelated-bug-report-vitis-hls-v202202-crashed-when-we-apply-some-pragmas-to-the-code) | pipeline, loop_merge protocol, dependence | **Confirmed** |
-|  2  | [Pragma-Related BUG REPORT: Vitis HLS v2022.02 stop synthesis process abnormally when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064Y8PJSA0/pragmarelated-bug-report-vitis-hls-v202202-stop-synthesis-process-abnormally-when-we-apply-some-pragmas-to-the-code)  |    pipeline loop_merge, protocol, inline off   | Pending |
-|  3  | [Crash Issue: Vitis HLS v2020.02 and v2022.02 stop synthesis process abnormally when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064a0k9SAA/crash-issue-vitis-hls-v202002-and-v202202-stop-synthesis-process-abnormally-when-we-apply-some-pragmas-to-the-code)  |    inline off, function_instantiate   | **Confirmed** |
-|  4  | [Abnormal program termination Issue: Vitis HLS v2022.02 cannot finish the synthesis process.](https://support.xilinx.com/s/question/0D54U000064bZ3ZSAU/abnormal-program-termination-issue-vitis-hls-v202202-cannot-finish-the-synthesis-process)  |    pipeline, protocol   | **Duplicated**  |
-|  5  | [Pragma-related Crash Issue: using protocol pragma cause Vitis HLS v2022.02 crash.](https://support.xilinx.com/s/question/0D54U000064bZLJSA2/pragmarelated-crash-issue-using-protocol-pragma-cause-vitis-hls-v202202-crash)  |   protocol   | **Confirmed** |
-|  6  | [Vitis v2022.02 Crash Issue: Vitis HLS v2022.02 crashed when using some pragmas.](https://support.xilinx.com/s/question/0D54U000067prMRSAY/vitis-v202202-crash-issue-vitis-hls-v202202-crashed-when-using-some-pragmas)  |   pipeline, allocation, function_instantiate and inline off   | Pending |
+| :--: | :---------------------------------------------------------: | :------------: | :-----------: |
+|  1  | [Pragma-Related BUG REPORT: Vitis HLS v2022.02 crashed when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064Y8CJSA0/pragmarelated-bug-report-vitis-hls-v202202-crashed-when-we-apply-some-pragmas-to-the-code) | pipeline, loop_merge protocol, dependence  | **Confirmed** |
+|  2  | [Pragma-Related BUG REPORT: Vitis HLS v2022.02 stop synthesis process abnormally when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064Y8PJSA0/pragmarelated-bug-report-vitis-hls-v202202-stop-synthesis-process-abnormally-when-we-apply-some-pragmas-to-the-code)  |  pipeline loop_merge, protocol, inline off  | Pending |
+|  3  | [Crash Issue: Vitis HLS v2020.02 and v2022.02 stop synthesis process abnormally when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064a0k9SAA/crash-issue-vitis-hls-v202002-and-v202202-stop-synthesis-process-abnormally-when-we-apply-some-pragmas-to-the-code)  |  inline off, function_instantiate  | **Confirmed** |
+|  4  | [Abnormal program termination Issue: Vitis HLS v2022.02 cannot finish the synthesis process.](https://support.xilinx.com/s/question/0D54U000064bZ3ZSAU/abnormal-program-termination-issue-vitis-hls-v202202-cannot-finish-the-synthesis-process)  |  pipeline, protocol  | **Duplicated**  |
+|  5  | [Pragma-related Crash Issue: using protocol pragma cause Vitis HLS v2022.02 crash.](https://support.xilinx.com/s/question/0D54U000064bZLJSA2/pragmarelated-crash-issue-using-protocol-pragma-cause-vitis-hls-v202202-crash)  |  protocol  | **Confirmed** |
+|  6  | [Vitis v2022.02 Crash Issue: Vitis HLS v2022.02 crashed when using some pragmas.](https://support.xilinx.com/s/question/0D54U000067prMRSAY/vitis-v202202-crash-issue-vitis-hls-v202202-crashed-when-using-some-pragmas)  |  pipeline, allocation, function_instantiate and inline off  | Pending |
 
 
 ## Performance bugs
