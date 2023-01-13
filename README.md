@@ -26,6 +26,7 @@
 |  18  | [Pragma-related Issue: Using reset off and inline off in one function causes Vitis HLS cannot synthesis the code correctly.](https://support.xilinx.com/s/question/0D54U000067oli4SAA/pragmarelated-issue-using-reset-off-and-inline-off-in-one-function-causes-vitis-hls-cannot-synthesis-the-code-correctly)  |  inline off, reset off  | Pending |
 |  19  | [Co-simulation failed Issue: Vitis HLS cannot synthesize the code correctly.](https://support.xilinx.com/s/question/0D54U00006CmRJTSA3/cosimulation-failed-issue-vitis-hls-cannot-synthesize-the-code-correctly)  |  pipeline, inline off, protocol  | Pending |
 |  20  | [Vitis HLS Issue: co-simulation failed when using some pragmas.](https://support.xilinx.com/s/question/0D54U00006Dcit6SAB/vitis-hls-issue-cosimulation-failed-when-using-some-pragmas)  |  pipeline, inline off  | Pending |
+|  21  | [Pragma-related Issue: co-simulation failed in Vitis HLS v2022.02 when using some pragmas.](https://support.xilinx.com/s/question/0D54U00006DdusdSAB/pragmarelated-issue-cosimulation-failed-in-vitis-hls-v202202-when-using-some-pragmas)  |  array_reshape, pipeline, latency, allocation  | Pending |
 
 ## Crash bugs
 
