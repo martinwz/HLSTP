@@ -27,6 +27,7 @@
 |  19  | [Vitis HLS Issue: co-simulation failed when using some pragmas.](https://support.xilinx.com/s/question/0D54U00006Dcit6SAB/vitis-hls-issue-cosimulation-failed-when-using-some-pragmas)  |  pipeline, inline off  | Pending |
 |  20  | [Co-simulation failed Issue: the simulation result doesn’t match the golden output in Vitis HLS v2022.02 when we use some pragmas.](https://support.xilinx.com/s/question/0D54U00006DdusdSAB/cosimulation-failed-issue-the-simulation-result-doesnt-match-the-golden-output-in-vitis-hls-v202202-when-we-use-some-pragmas)  |  array_reshape, pipeline, latency, allocation  | Pending |
 |  21  | [Issue: Using some pragmas makes co-simulation fail in Vitis HLS.](https://support.xilinx.com/s/question/0D54U00006DfetlSAB/issue-using-some-pragmas-makes-cosimulation-fail-in-vitis-hls)  |  inline off, loop_merge, allocation  | Pending |
+|  22  | [Pragma-related Issue: Using some pragmas makes co-simulation fail in Vitis HLS.](https://support.xilinx.com/s/question/0D54U00006DgFOnSAN/pragmarelated-issue-using-some-pragmas-makes-cosimulation-fail-in-vitis-hls)  |  pipeline, inline off, allocation  | Pending |
 
 ## Crash bugs
 
