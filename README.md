@@ -30,6 +30,7 @@
 |  22  | [Pragma-related Issue: Using some pragmas makes co-simulation fail in Vitis HLS.](https://support.xilinx.com/s/question/0D54U00006DgFOnSAN/pragmarelated-issue-using-some-pragmas-makes-cosimulation-fail-in-vitis-hls)  |  pipeline, inline off, allocation  | Pending |
 |  23  | [Issue: a pragma-related problem in Vitis HLS.](https://support.xilinx.com/s/question/0D54U00006FWxJmSAL/issue-a-pragmarelated-problem-in-vitis-hls)  |  pipeline, array_reshape, array_partition, inline off  | Pending |
 |  24  | [Pragma-related Issue: using inline off and expression_balance pragma caused co-simulation failed in Vitis HLS v2022.02.](https://support.xilinx.com/s/question/0D54U00006FXwglSAD/pragmarelated-issue-using-inline-off-and-expressionbalance-pragma-caused-cosimulation-failed-in-vitis-hls-v202202)  |  inline off, expression_balance  | Pending |
+|  25  | [Pragma Issue: using pipeline and array_reshape pragma caused co-simulation failed in Vitis HLS.](https://support.xilinx.com/s/question/0D54U00006FYvgGSAT/pragma-issue-using-pipeline-and-arrayreshape-pragma-caused-cosimulation-failed-in-vitis-hls)  |  pipeline in three functions, array_reshape  | Pending |
 
 ## Crash bugs
 
