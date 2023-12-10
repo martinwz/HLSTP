@@ -1,6 +1,6 @@
 # TEPACS
 
-# The following two tables record the details of all reported bugs found by TEPACS (Update by 2023-05-21).
+# The following two tables record the details of all reported bugs found by TEPACS (Update by 2023-10-10).
 
 ## Miscompile bugs
 
