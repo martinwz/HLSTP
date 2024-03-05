@@ -5,7 +5,7 @@
 ## Miscompile bugs
 
 | No.  |                           Bug Report Title                             |    Status     |
-| :--: | :---------------------------------------------------------: | :------------: | :-----------: | 
+| :--: | :---------------------------------------------------------: | :-----------: | 
 |  1  | [BUG REPORT: using pragmas makes Vitis HLS v2020.02 and v2022.02 synthesis the code incorrectly.](https://support.xilinx.com/s/question/0D54U00005wTKbcSAG/bug-report-using-pragmas-makes-vitis-hls-v202002-and-v202202-synthesis-the-code-incorrectly)  | Pending  |
 |  2  | [BUG REPORT: both Vitis HLS v2020.02 and v2022.02 cannot synthesis the code correctly and report co-simulation failed when using by using loop_merge and allocation pragmas.](https://support.xilinx.com/s/question/0D54U00005wTHToSAO/bug-report-both-vitis-hls-v202002-and-v202202-cannot-synthesis-the-code-correctly-and-report-cosimulation-failed-when-using-by-using-loopmerge-and-allocation-pragmas)  | Pending |
 |  3  | [BUG REPORT: both Vitis HLS v2020.02 and v2022.02 report co-simulation failed when using loop_merge and pipeline pragmas in two different functions.](https://support.xilinx.com/s/question/0D54U00005wTGlhSAG/bug-report-both-vitis-hls-v202002-and-v202202-report-cosimulation-failed-when-using-loopmerge-and-pipeline-pragmas-in-two-different-functions)    | **Confirmed**  |
