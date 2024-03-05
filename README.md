@@ -34,8 +34,8 @@
 
 ## Crash bugs
 
-| No.  |                           Bug Report Title                            |     Buggy Pragmas      |    Status     |
-| :--: | :---------------------------------------------------------: | :------------: | :-----------: |
+| No.  |                           Bug Report Title                              |    Status     |
+| :--: | :---------------------------------------------------------:  | :-----------: |
 |  1  | [Pragma-Related BUG REPORT: Vitis HLS v2022.02 crashed when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064Y8CJSA0/pragmarelated-bug-report-vitis-hls-v202202-crashed-when-we-apply-some-pragmas-to-the-code)  | **Confirmed** |
 |  2  | [Pragma-Related BUG REPORT: Vitis HLS v2022.02 stop synthesis process abnormally when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064Y8PJSA0/pragmarelated-bug-report-vitis-hls-v202202-stop-synthesis-process-abnormally-when-we-apply-some-pragmas-to-the-code) | Pending  |
 |  3  | [Crash Issue: Vitis HLS v2020.02 and v2022.02 stop synthesis process abnormally when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064a0k9SAA/crash-issue-vitis-hls-v202002-and-v202202-stop-synthesis-process-abnormally-when-we-apply-some-pragmas-to-the-code)  | **Confirmed** |
@@ -45,8 +45,8 @@
 
 
 ## Performance bugs
-| No.  |                           Bug Report Title                            |     Buggy Pragmas      |    Status     |
-| :--: | :---------------------------------------------------------: | :------------: | :-----------: | 
+| No.  |                           Bug Report Title                             |    Status     |
+| :--: | :---------------------------------------------------------: | :-----------: | 
 |  1  | [Performance Issue: Vitis HLS v2022.02 hung on synthesis process more than 10 minutes when we apply some pragmas to the code.](https://support.xilinx.com/s/question/0D54U000064ZHSSSA4/performance-issue-vitis-hls-v202202-hangs-on-synthesis-process-more-than-10-minutes-when-we-apply-some-pragmas-to-the-code) | Pending |
 |  2  | [Vitis HLS v2022.02 hangs on "Using interface defaults for 'Vivado' flow target."](https://support.xilinx.com/s/question/0D54U00006rU6oNSAS/vitis-hls-v202202-hangs-on-using-interface-defaults-for-vivado-flow-target?language=en_US)   | **Confirmed** |
 |  3  | [Endless synthesis process Issue: Vitis HLS v2022.02 unable to end the synthesis process when we apply array_partition pragma to the code.](https://support.xilinx.com/s/question/0D54U000064ZMr7SAG/endless-synthesis-process-issue-vitis-hls-v202202-unable-to-end-the-synthesis-process-when-we-apply-arraypartition-pragma-to-the-code)  | Pending |
