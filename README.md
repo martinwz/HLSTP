@@ -1,1 +1,1 @@
-For ease of data management, please inform us via an issue of your name, organization, and the purpose for which you intend to use the dataset. After we register your information, we will provide you with the dataset. We apologize for any inconvenience.
+For ease of data management, please inform us via an issue of your name, organization, and the purpose for which you intend to use the bug dataset. After we register your information, we will provide you with the dataset. We apologize for any inconvenience.
